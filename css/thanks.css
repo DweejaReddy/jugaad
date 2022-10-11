@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-image: url("img/bg.png");
+  }
+  .wrapper{
+    max-width: 720px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+   @media(max-width: 584px){
+   .wrapper{
+    max-width: 100%;
+  }
+  }

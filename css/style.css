@@ -5,7 +5,9 @@
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 /* home */
 
@@ -72,10 +74,8 @@
     font-weight: 700;
     color: #313133;
     background: #ffe100;
-  background: #ffe100;
     border: none;
     border-radius: 20px;
-    /* box-shadow: 5px 5px 5px white; */
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -99,7 +99,8 @@
   }
   
   .Reg:hover, .Reg:focus {
-    color: #313133;
+    background-color: transparent;
+    color: #ffe100;
     transform: translateY(-6px);
   }
   
@@ -171,6 +172,10 @@
     align-items: center;
     margin: 70px 70px;
     padding: 10px;
+}
+
+.svg-1{
+  margin-top: -100px;
 }
 
 .title{
@@ -321,4 +326,22 @@
   }
   .container-reg input ::placeholder{
     font-style: white;
+  }
+
+
+  @media screen and (max-width:992px){
+    html,body{
+      overflow-x: hidden;
+    }
+    .svg-1{
+      margin-top: -40px;
+    }
+    
+  }
+
+  .hidden{
+    display: none;
+  }
+  .show{
+    display: block;
   }
