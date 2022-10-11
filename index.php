@@ -135,7 +135,7 @@
    <!-- </div> -->
     <!-- registration-section -->
 
-
+    <form method="post" action="store_details.php">
     <div class="container-reg" id="registration" >
 
         <p style="font-size: 1rem; color: rgb(255, 255, 255); font-weight:500; margin: -16px; padding: 10px;">Get Started
@@ -145,7 +145,7 @@
         </p>
 
 
-        <form method="post" action="store_details.php">
+        
         <div class="mb-3 exform">
             <input type="text" name="team_name" class="form-control light " placeholder="Team Name" required>
         </div>
@@ -160,7 +160,7 @@
         <div class="mb-3 exform">
             <input type="text" class="form-control" name="email" placeholder="E-mail Address (Team Leader)" required>
         </div>
-        
+
         <select name="size" class="form-select exform" id="size" required>
             <option selected value="" >Team Size*</option>
             <option value="1">One</option>
@@ -192,20 +192,6 @@
                 <input type="text" class="form-control  " name="mem4"  placeholder="Team member 4">
             </div>
         </div>
-    </div>
-        
-        
-        
-        </form>
-<!-- 
-        <div class="form-check" style="margin-top:10px; margin-bottom: 25px;">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-left: 250px;" id="checkbox">
-            <label class="form-check-label" for="flexCheckDefault" style="
-            margin-right: 250px;" id="checkbox-content">
-                I hereby declare that my team will not indulge in any fraudulent activities during event, if found then
-                we will be disqualified.
-            </label>
-        </div> -->
 
         <div class="checkbox">
             <input  type="checkbox" name="checkbox" id="checkbox"> <p class="fw-semibold disclamer text-white">I hereby declare that my team will not indulge in any fraudulent activities during event, if found then
@@ -218,9 +204,26 @@
             <button class="btn btn-outline-light fw-bold disabled" type="button" id="Submit-btn" name="submit_form">Submit</button>
 
         </div>
+ 
+    </div>
+        
+        
+        
+       
+<!-- 
+        <div class="form-check" style="margin-top:10px; margin-bottom: 25px;">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="margin-left: 250px;" id="checkbox">
+            <label class="form-check-label" for="flexCheckDefault" style="
+            margin-right: 250px;" id="checkbox-content">
+                I hereby declare that my team will not indulge in any fraudulent activities during event, if found then
+                we will be disqualified.
+            </label>
+        </div> -->
+
+        
 
     </div>
-
+</form>
     <!-- sponsors-section -->
 
     
