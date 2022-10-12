@@ -287,6 +287,16 @@
     <script>
         $('#size').change(function(){
             var response = $(this).val();
+            if(response == 1){
+                $('#hidden1').removeClass("show");
+                $('#hidden1').addClass("hidden"); 
+                $('#hidden2').removeClass("show");
+                $('#hidden2').addClass("hidden"); 
+                $('#hidden3').removeClass("show");
+                $('#hidden3').addClass("hidden"); 
+                $('#hidden4').removeClass("show");
+                $('#hidden4').addClass("hidden"); 
+            }
             if(response == 2){
                 $('#hidden1').removeClass("hidden");
                 $('#hidden1').addClass("show"); 
