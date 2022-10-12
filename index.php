@@ -88,7 +88,7 @@
                    <a href="#registration"><button class="Reg" >Register Now</button></a> 
                   </div>
                   <div class="wrap-2" >
-                    <a href="./Notes_220918_084436.pdf"><button class="Reg-2" >Download Rule Book</button></a> 
+                    <a href="img/Jugaad'22 Rulebook .pdf" target="_blank"><button class="Reg-2" >Download Rule Book</button></a> 
                    </div>
                 <h2 class="fw-bold text-white" >On 16 OCTOBER 2022 </h2>
             </div>
