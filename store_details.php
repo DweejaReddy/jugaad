@@ -3,7 +3,7 @@ session_start();
 if(isset($_POST['submit_form']))
 {
 
-$con = mysqli_connect("localhost","root","","jugaad2022");
+$con = mysqli_connect("localhost","ias2020","ecell123","jugaad2022");
 if ($con->connect_error){
     die("Connection failed: " . $con->connect_error);
 }	 

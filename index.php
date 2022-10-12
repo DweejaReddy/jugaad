@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JUGAAD'22</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUGAAD 2022 | E-CELL, VNIT</title>
+    <meta name="description" content="Jugaad is an annual event organised by Ecell VNIT which aims to create an inexorable spirit of entrepreneurship amongst students, with the freshmen as particular consideration for the Club. It aims to function as a guide in the form of a fun event for students with creative ideas which can be transformed into successful street level transactions.">
+    <meta name="keywords" content="Ecell, vnit, E-cell VNIT, entreprenuship cell, consortium 2022, 2022, consortium'22, Jugaad, Jugaad 22" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 1285px)" href="./css/phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Inconsolata:wght@300&family=Josefin+Sans&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
@@ -39,7 +41,7 @@
             <div class="collapse navbar-collapse navigation" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto d-flex align-items-center" style="margin-right: 40px;" id="nav">
                     <li class="nav-item nav-btn">
-                        <a class="nav-link active fw-semibold text-white" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active fw-semibold text-white"  href="#home">Home</a>
                     </li>
                     <li class="nav-item nav-btn">
                         <a class="nav-link active fw-semibold text-white" href="#about" >Jugaad</a>
@@ -48,7 +50,7 @@
                         <a class="nav-link active fw-semibold text-white" href="#" >Rule-Book</a>
                     </li>
                     <li class="nav-item nav-btn">
-                        <a class="nav-link active fw-semibold text-white" href="https://www.ecellvnit.org/" >About Us</a>
+                        <a class="nav-link active fw-semibold text-white" href="https://www.ecellvnit.org/" target="_blank">About Us</a>
                     </li>
                     <li class="nav-item nav-btn">
                         <a class="nav-link active fw-semibold text-white" href="#sponsors" >Sponsors</a>
@@ -75,7 +77,7 @@
             <!-- <h1 class="animate__animated animate__fadeIn fw-bolder">JUGAAD</h1> -->
             <img src="./img/jugaadnew.png" alt="" class="logo animate__animated animate__slideInDown">
             <div class="content animate__animated animate__slideInUp">
-                <p class="fw-bold text-white mt-3">How much you can make from <span>100</span> bucks ??</p>
+                <p class="fw-bold text-white">How much you can make from <span>100</span> bucks ??</p>
 
                 <!-- <div class="d-grid gap-2 col-5 mx-auto">
                     <button type="button" class="btn btn-outline-dark fw-semibold text-black" style="background-color:#ffe100;" href
@@ -101,7 +103,7 @@
     </div>
 </div>
     <!-- about-section  -->
-<div class="about-section">
+<div class="about-section" id="about">
     <div class="about animate__animated animate__fadeInLeftBig animate__slower" id="about" style=" color: black;">
         <div class="title fw-bold">About <p> Jugaad</p>
         </div>
