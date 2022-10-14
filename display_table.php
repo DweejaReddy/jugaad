@@ -63,6 +63,13 @@
                 <td><?php echo $row["mem1"]; ?></td>
                 <td><?php echo $row["mem2"]; ?></td>
                 <td><?php echo $row["mem3"]; ?></td>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                <!-- <td><?php echo $row["mem4"]; ?></td> -->
+>>>>>>> fca9ee12c0ccbbe2a33b3159b92a9decebb0b78f
+>>>>>>> ec1a6153557beb3fdfd18265d6828eb13b57fe47
 
             </tr>
         </tbody>
