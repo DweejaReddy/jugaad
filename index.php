@@ -215,7 +215,11 @@
     <!-- sponsors-section -->
 
     
+<<<<<<< HEAD
     <section class="sponsor-section" id="sponsors">
+=======
+    <!-- <section class="sponsor-section" id="sponsors">
+>>>>>>> fca9ee12c0ccbbe2a33b3159b92a9decebb0b78f
         <div id="spons" class="text-white"> Our Sponsors</div>
         <div id="sponsor">
             <div class="row align-items-center ">
