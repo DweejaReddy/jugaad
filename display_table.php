@@ -63,7 +63,7 @@
                 <td><?php echo $row["mem1"]; ?></td>
                 <td><?php echo $row["mem2"]; ?></td>
                 <td><?php echo $row["mem3"]; ?></td>
-                <td><?php echo $row["mem4"]; ?></td>
+                <!-- <td><?php echo $row["mem4"]; ?></td> -->
 
             </tr>
         </tbody>

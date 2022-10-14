@@ -171,7 +171,7 @@
             <option value="2">Two</option>
             <option value="3">Three</option>
             <option value="4">Four</option>
-            <option value="5">Five</option>
+            <!-- <option value="5">Five</option> -->
 
         </select>
         <div id="teamMembers">
@@ -191,11 +191,11 @@
                 <input type="text" class="form-control  " name="mem3" placeholder="Team member 3">
             </div>
         </div>
-        <div class="hidden" id="hidden4">
+        <!-- <div class="hidden" id="hidden4">
             <div class="mb-3 exform">
                 <input type="text" class="form-control  " name="mem4"  placeholder="Team member 4">
             </div>
-        </div>
+        </div> -->
     </div>
         <div class="checkbox">
             <input  type="checkbox" name="checkbox" id="checkbox"> <p class="fw-semibold disclamer text-white">I hereby declare that my team will not indulge in any fraudulent activities during event, if found then
@@ -216,7 +216,7 @@
 
     
     <!-- <section class="sponsor-section" id="sponsors">
-        <div id="spons"> Our Sponsors</div>
+        <div id="spons" class="text-white"> Our Sponsors</div>
         <div id="sponsor">
             <div class="sponsor-item">
                 <img src="https://jugaad.ecellvnit.org/img/clients/titan.jpg" alt="">
@@ -287,6 +287,16 @@
     <script>
         $('#size').change(function(){
             var response = $(this).val();
+            if(response == 1){
+                $('#hidden1').removeClass("show");
+                $('#hidden1').addClass("hidden"); 
+                $('#hidden2').removeClass("show");
+                $('#hidden2').addClass("hidden"); 
+                $('#hidden3').removeClass("show");
+                $('#hidden3').addClass("hidden"); 
+                $('#hidden4').removeClass("show");
+                $('#hidden4').addClass("hidden"); 
+            }
             if(response == 2){
                 $('#hidden1').removeClass("hidden");
                 $('#hidden1').addClass("show"); 
@@ -317,16 +327,16 @@
                 $('#hidden4').removeClass("show");
                 $('#hidden4').addClass("hidden"); 
             }
-            else if(response == 5){
-                $('#hidden1').removeClass("hidden");
-                $('#hidden1').addClass("show"); 
-                $('#hidden2').removeClass("hidden");
-                $('#hidden2').addClass("show"); 
-                $('#hidden3').removeClass("hidden");
-                $('#hidden3').addClass("show"); 
-                $('#hidden4').removeClass("hidden");
-                $('#hidden4').addClass("show"); 
-            }
+            // else if(response == 5){
+            //     $('#hidden1').removeClass("hidden");
+            //     $('#hidden1').addClass("show"); 
+            //     $('#hidden2').removeClass("hidden");
+            //     $('#hidden2').addClass("show"); 
+            //     $('#hidden3').removeClass("hidden");
+            //     $('#hidden3').addClass("show"); 
+            //     $('#hidden4').removeClass("hidden");
+            //     $('#hidden4').addClass("show"); 
+            // }
         });
     </script>
 
