@@ -266,7 +266,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 68px
 }
 
 #spons{
@@ -279,9 +278,7 @@ body{
     margin: 10px;
 }
 
-#sponsor img {
-    height: 130px;
-}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -349,4 +346,38 @@ body{
   .logo{
     margin-bottom: 30px;
   }  
+}
+
+
+
+
+.card img {
+  padding: 10px 10px;
+  height: auto;
+  width: 250px;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  border-radius: 8px;
+  height: 280px !important;
+  width: 280px;
+  margin: 20px;
+  align-items: center;
+}
+.heading1 {
+  font-size: 1.2rem;
+  color: rgba(245, 244, 244, 0.877);
 }

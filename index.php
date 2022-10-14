@@ -171,7 +171,7 @@
             <option value="2">Two</option>
             <option value="3">Three</option>
             <option value="4">Four</option>
-            <option value="5">Five</option>
+            <!-- <option value="5">Five</option> -->
 
         </select>
         <div id="teamMembers">
@@ -191,11 +191,11 @@
                 <input type="text" class="form-control  " name="mem3" placeholder="Team member 3">
             </div>
         </div>
-        <div class="hidden" id="hidden4">
+        <!-- <div class="hidden" id="hidden4">
             <div class="mb-3 exform">
                 <input type="text" class="form-control  " name="mem4"  placeholder="Team member 4">
             </div>
-        </div>
+        </div> -->
     </div>
         <div class="checkbox">
             <input  type="checkbox" name="checkbox" id="checkbox"> <p class="fw-semibold disclamer text-white">I hereby declare that my team will not indulge in any fraudulent activities during event, if found then
@@ -215,33 +215,54 @@
     <!-- sponsors-section -->
 
     
-    <!-- <section class="sponsor-section" id="sponsors">
-        <div id="spons"> Our Sponsors</div>
+    <section class="sponsor-section" id="sponsors">
+        <div id="spons" class="text-white"> Our Sponsors</div>
         <div id="sponsor">
-            <div class="sponsor-item">
-                <img src="https://jugaad.ecellvnit.org/img/clients/titan.jpg" alt="">
-            </div>
+            <div class="row align-items-center ">
+                <div class="col-lg-4">
+              <div class="heading1 text-center text-white pt-5 pb-4">Powered By</div>
+                  <div class="card mx-auto">
+                      <img class="my-auto" src="img/stucredblack.png" alt="img" />
+                  </div>
+                </div>
+                <div class="col-lg-4">
+              <div class="heading1 text-center text-white pt-5 pb-4">Banking Partner</div>
+                  <div class="card mx-auto">
+                      <img class="my-auto" src="img/canara.png" alt="img" />
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="heading1 text-center text-white pt-5 pb-4">Cafe Partner</div>
+                    <div class="card mx-auto">
+                        <img class="my-auto" src="img/villa167.png" alt="img" />
+                    </div>
+                </div>
 
-            <div class="sponsor-item">
-                <img src="https://jugaad.ecellvnit.org/img/clients/raio-mirchi.png" alt="">
-            </div>
+                <div class="col-lg-6">
+                    <div class="heading1 text-center text-white pt-5 pb-4">Travel Partner</div>
+                        <div class="card mx-auto">
+                            <img class="my-auto" src="img/tigernwoods.png" alt="img" />
+                        </div>
+                    </div>
 
-            <div class="sponsor-item">
-                <img src="https://jugaad.ecellvnit.org/img/clients/olive.jpg" alt="">
-            </div>
+                    <div class="col-lg-6">
+                        <div class="heading1 text-center text-white pt-5 pb-4">Adventure Partner</div>
+                            <div class="card mx-auto">
+                                <img class="my-auto" src="img/cac.png" alt="img" />
+                            </div>
+                        </div>
 
-            <div class="sponsor-item">
-                <img src="https://jugaad.ecellvnit.org/img/clients/STARTUP.png" alt="">
-            </div>
-            <div class="sponsor-item">
-                <img src="https://jugaad.ecellvnit.org/img/clients/Make_In_India.png" alt="">
-            </div>
+                        <div class="col-lg-4">
+                            <div class="heading1 text-center text-white pt-5 pb-4">Electronic Partner</div>
+                                <div class="card mx-auto" style="font-size: 3rem;font-weight: 300;padding-top: 40px;">
+                                    MANISH <br> MARKET <br> <span style="font-size: 1.5rem;">+91-9890526928</span>
+                                </div>
+                            </div>
+    </div>
 
-            <div class="sponsor-item">
-                <img src="https://jugaad.ecellvnit.org/img/clients/vnit_aa.png" alt="">
-            </div>
+    
         </div>
-    </section> -->
+    </section>
 
     <!-- footer-section -->
 
@@ -287,6 +308,16 @@
     <script>
         $('#size').change(function(){
             var response = $(this).val();
+            if(response == 1){
+                $('#hidden1').removeClass("show");
+                $('#hidden1').addClass("hidden"); 
+                $('#hidden2').removeClass("show");
+                $('#hidden2').addClass("hidden"); 
+                $('#hidden3').removeClass("show");
+                $('#hidden3').addClass("hidden"); 
+                $('#hidden4').removeClass("show");
+                $('#hidden4').addClass("hidden"); 
+            }
             if(response == 2){
                 $('#hidden1').removeClass("hidden");
                 $('#hidden1').addClass("show"); 
@@ -317,16 +348,16 @@
                 $('#hidden4').removeClass("show");
                 $('#hidden4').addClass("hidden"); 
             }
-            else if(response == 5){
-                $('#hidden1').removeClass("hidden");
-                $('#hidden1').addClass("show"); 
-                $('#hidden2').removeClass("hidden");
-                $('#hidden2').addClass("show"); 
-                $('#hidden3').removeClass("hidden");
-                $('#hidden3').addClass("show"); 
-                $('#hidden4').removeClass("hidden");
-                $('#hidden4').addClass("show"); 
-            }
+            // else if(response == 5){
+            //     $('#hidden1').removeClass("hidden");
+            //     $('#hidden1').addClass("show"); 
+            //     $('#hidden2').removeClass("hidden");
+            //     $('#hidden2').addClass("show"); 
+            //     $('#hidden3').removeClass("hidden");
+            //     $('#hidden3').addClass("show"); 
+            //     $('#hidden4').removeClass("hidden");
+            //     $('#hidden4').addClass("show"); 
+            // }
         });
     </script>
 

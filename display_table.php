@@ -29,7 +29,7 @@
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql = "SELECT sno, team_name, leader_name, phone, email, size, mem1, mem2, mem3, mem4 FROM jugaad_data";
+        $sql = "SELECT sno, team_name, leader_name, phone, email, size, mem1, mem2, mem3 FROM jugaad_data";
         $result = mysqli_query($conn, $sql);
         
     ?>
@@ -46,7 +46,7 @@
                 <th scope="col">Member 1</th>
                 <th scope="col">Member 2</th>
                 <th scope="col">Member 3</th>
-                <th scope="col">Member 4</th>
+                <!-- <th scope="col">Member 4</th> -->
             </tr>
         </thead>
         <?php
@@ -63,7 +63,6 @@
                 <td><?php echo $row["mem1"]; ?></td>
                 <td><?php echo $row["mem2"]; ?></td>
                 <td><?php echo $row["mem3"]; ?></td>
-                <td><?php echo $row["mem4"]; ?></td>
 
             </tr>
         </tbody>
