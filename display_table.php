@@ -29,7 +29,7 @@
             die("Connection failed: " . mysqli_connect_error());
         }
 
-        $sql = "SELECT sno, team_name, leader_name, phone, email, size, mem1, mem2, mem3, mem4 FROM jugaad_data";
+        $sql = "SELECT sno, team_name, leader_name, phone, email, size, mem1, mem2, mem3 FROM jugaad_data";
         $result = mysqli_query($conn, $sql);
         
     ?>
